@@ -529,15 +529,26 @@
     .hero::after{opacity:.35;right:-120px}
   }
   @media (max-width:600px){
-    .hero h1{font-size:37px}
-    .hero-byline{font-size:17px}
-    .hero-byline + .hero-byline{font-size:13px}
-    .overview,.methods,.results,.findings,.gallery{padding-top:58px;padding-bottom:56px}
-    .result-block{padding:18px 12px}
-    .method-block{padding-left:16px}
-    .catalog-controls{align-items:flex-start;flex-direction:column}
-    #clusterSearch{width:100%}
+  .hero h1{
+    font-size:34px;
+    line-height:1.08;
+    letter-spacing:-0.025em;
   }
+
+  .hero-byline{font-size:17px}
+  .hero-byline + .hero-byline{font-size:13px}
+  .overview,.methods,.results,.findings,.gallery{
+    padding-top:58px;
+    padding-bottom:56px;
+  }
+  .result-block{padding:18px 12px}
+  .method-block{padding-left:16px}
+  .catalog-controls{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+  #clusterSearch{width:100%}
+}
   @media (prefers-reduced-motion:reduce){
     *{animation:none!important;transition:none!important}
     html{scroll-behavior:auto}
